@@ -32,6 +32,8 @@ define('OH_FRONTEND_STYLES', 'oh_frontend_styles');
 // add_action('enqueue_block_editor_assets', 'enqueue_block_editor_assets');
 
 
+// Prueba
+
 add_action('init', 'custom_blocks');
 
 
