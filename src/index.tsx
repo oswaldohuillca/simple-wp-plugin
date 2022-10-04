@@ -1,8 +1,5 @@
-import React from 'react'
-
-import { __ } from '@wordpress/i18n'
 import { registerBlockCollection, registerBlockType } from '@wordpress/blocks'
-import { Button } from '@wordpress/components'
+import { Button } from '@wordpress/components';
 import './assets/index.scss'
 // Register the collection.
 // registerBlockCollection( 'my-collection', {
