@@ -54,12 +54,12 @@ function custom_blocks()
   );
 
   // editor styles register
-  wp_register_style(
-    OH_EDITOR_STYLES,                // name
-    plugins_url('build/editor.css', __FILE__),  // file
-    array('wp-edit-blocks'),            // dependencies
-    filemtime(plugin_dir_path(__FILE__) . 'build/editor.css')  //version
-  );
+  // wp_register_style(
+  //   OH_EDITOR_STYLES,                // name
+  //   plugins_url('build/editor.css', __FILE__),  // file
+  //   array('wp-edit-blocks'),            // dependencies
+  //   filemtime(plugin_dir_path(__FILE__) . 'build/editor.css')  //version
+  // );
 
   // frontend styles register
   wp_register_style(
